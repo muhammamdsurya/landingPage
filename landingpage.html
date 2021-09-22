@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="header-left">
+                <h2>Selamat Datang</h2>
+            </div>
+            <div class="hamburger">
+                <div id="menu" onclick="onClickMenu()">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#pelajaran" class="navbar">Pelajaran</a></li>
+                <li><a href="#ulasan" class="navbar">Ulasan</a></li>
+                <li><a href="#kontak" class="navbar">Kontak Kami</a></li>
+                <li><a href="#" class="login" style="margin-left: 80px;">Log in</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <h1> Mau Belajar Coding Apa Hari ini?</h1>
+            <h1> Kami Siap Menemani! </h1>
+            <br>
+            <p> Disini kamu dapat belajar berbagai bahasa pemrograman </p>
+            <p> Yang tentunya terstruktur dan mudah di mengerti!</p>
+            <div class="btn-wrapper">
+                <button href="#" class="btn signup">Daftar</button>
+                <p>Atau</p>
+                <button href="#" class="btn facebook"><svg class="fa"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>Login dengan Facebook</button>
+                <button href="#" class="btn google"><svg class="fa"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                  </svg>Login dengan Google</button>
+            </div>
+        </div>
+    </div>
+    <section class="main" id="pelajaran">
+            <div class="heading">
+                <h2>Mau Belajar Apa Hari Ini?</h2>
+                <hr>
+            </div>
+            <div class="lessons">
+                <div class="lesson"><a href="#">
+                    <div class="lesson-icon" >
+                        <img src="img/html.png"  style="width: 70%;"></img>
+                    </div>
+                    <p class="txt-contents">HTML adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet</p>
+                </a>
+                </div>
+                <div class="lesson"><a href="#">
+                    <div class="lesson-icon" >
+                        <img src="img/js.png"  style="width: 50%;"></img>
+                    </div>
+                    <p class="txt-contents">JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis</p>
+                </a>
+                </div>
+                <div class="lesson"><a href="#">
+                    <div class="lesson-icon" >
+                        <img src="img/php.png"  style="width: 70%;"></img>
+                    </div>
+                    <p class="txt-contents">PHP: Hypertext Preprocessor adalah bahasa skrip yang dapat ditanamkan atau disisipkan ke dalam HTML</p>
+                </a>
+                </div>
+                <div class="lesson"><a href="#">
+                    <div class="lesson-icon" >
+                        <img src="img/css.png"  style="width: 70%;"></img>
+                    </div>
+                    <p class="txt-contents">Cascading Style Sheet merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam</p>
+                </a>
+                </div>
+            </div>
+    </section>
+    <section class="Tentang"  id="ulasan">
+        <div class="heading">
+            <h2>Apa kata Mereka?</h2>
+            <hr>
+        </div>
+        <div class="reviews">
+            <div class="review">
+                <img src="img/poto.jpg" width="20%">
+                <p class="txt-contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, natus.</p>
+            </div>
+            <div class="review">
+                <img src="img/poto1.jpg" class="rounded-circle">
+                <p class="txt-contents">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, labore.</p>
+            </div>
+            <div class="review">
+                <img src="img/poto2.jpg" width="20%">
+                <p class="txt-contents">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, alias.</p>
+            </div>
+            <div class="review">
+                <img src="img/poto3.jpg" width="20%">
+                <p class="txt-contents">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, aliquam.</p>
+            </div>
+        </div>
+    </section>
+    <section class="kontak"  id="kontak" >
+        <div class="heading" >
+            <h2>Kontak Kami</h2>
+            <hr>
+        </div>
+            <form action="#" class="form" method="POST">
+                <label for = "username">Nama : </label> 
+                <input type = "text" name = "username" id = "username" class="form-content">
+                <label for = "username">Email : </label>
+                <input type = "text" name = "username" id = "username" class="form-content">
+                <label for = "username">Masukan Pesan Anda</label>
+                <textarea class="form-content" placeholder="Saran dan Kritik anda Sangat kami Tunggu!"></textarea>
+                <button type="submit" style="background-color: green; color: white;">SUBMIT</button>
+            </form>
+    </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <h3>Terimakasih</h3>
+            </div>
+            <div class="footer-right">
+            <ul>
+                <a href="#" >Pelajaran</a>
+                <a href="#" >Ulasan</a>
+                <a href="#">Kontak Kami</a>
+            </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

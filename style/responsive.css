@@ -1,0 +1,92 @@
+@media (max-width: 900px) {
+  .lesson {
+    width: 100%;
+  }
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  nav {
+    position: fixed;
+  }
+  #menu {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+    transition: 0.3s ease;
+  }
+  #line1 {
+    transform: translateY(-4px);
+  }
+  #line3 {
+    transform: translateY(4px);
+  }
+  .change #line1 {
+    transform: translateY(10px) rotate(-45deg);
+  }
+  .change #line3 {
+    transform: translateY(-6px) rotate(45deg);
+  }
+  .change #line2 {
+    opacity: 0;
+  }
+  .change .bar {
+    position: fixed;
+  }
+  .nav-links {
+    position: fixed;
+    background-color: rgba(22, 29, 31, 0.9);
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(1px at 90% -10%);
+    -webkit-clip-path: circle(1px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  .navbar:hover {
+    border-bottom: 1px solid white;
+    margin-left: 8px;
+  }
+
+  .nav-links.open {
+    clip-path: circle(800px at 90% -10%);
+    -webkit-clip-path: circle(800px at 90% -10%);
+    pointer-events: all;
+    font-size: 20px;
+  }
+  .login {
+    width: 100%;
+    text-align: center;
+  }
+  .btn {
+    width: 80%;
+    margin: 5px;
+  }
+  .signup {
+    width: 200px;
+  }
+  .form-content {
+    width: 80%;
+  }
+  .form button {
+    width: 80%;
+  }
+  .top-wrapper {
+    padding-top: 100px;
+  }
+  .top-wrapper h1 {
+    font-size: 40px;
+  }
+  .footer-left {
+    margin-left: -20px;
+    position: absolute;
+    font-size: 25px;
+  }
+}
